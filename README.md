@@ -1,7 +1,7 @@
 Command to create a standard CRA, but:
-- with a random name
-- open VScode automatically on it
-- choose a random port between `[3000..4000]`
+- with a random name (if no-one specified)
+- that starts VScode automatically on it
+- that chooses a random port between `[3000..4000]`
 
 # Usage
 
