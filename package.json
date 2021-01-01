@@ -11,14 +11,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/abernier/sandbox.git"
+    "url": "git+https://github.com/abernier/create-sandbox.git"
   },
   "author": "Antoine BERNIER",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/abernier/sandbox/issues"
+    "url": "https://github.com/abernier/create-sandbox/issues"
   },
-  "homepage": "https://github.com/abernier/sandbox#readme",
+  "homepage": "https://github.com/abernier/create-sandbox#readme",
   "dependencies": {
     "minimist": "^1.2.5",
     "project-name-generator": "^2.1.9"
