@@ -38,3 +38,13 @@ $ npm init @abernier/sandbox ~/code/rosie
 A `rosie` folder will be created and your CRA created into.
 
 NB: no random name here as you specify a non-existing folder name
+
+### `npx`
+
+Alternatively to you could just:
+
+```
+$ npx @abernier/create-sandbox
+```
+
+but this is less cool
