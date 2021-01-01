@@ -1,5 +1,8 @@
 {
   "name": "@abernier/create-sandbox",
+  "publishConfig": {
+    "access": "public"
+  },
   "version": "1.0.0",
   "description": "",
   "bin": "index.js",
