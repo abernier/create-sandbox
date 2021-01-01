@@ -73,7 +73,7 @@ createReactApp().then(async (projectAbsolutePath) => {
 
   const {stderr} = await exec('which code')
   if (!stderr) {
-    spawn('code', ['--goto','src/App.js', projectAbsolutePath], {stdio: 'inherit'})
+    spawn('code', ['--goto',`${projectAbsolutePath}/src/App.js`, projectAbsolutePath], {stdio: 'inherit'})
   }
   
 }).catch(err => {
