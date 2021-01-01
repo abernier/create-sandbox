@@ -1,0 +1,23 @@
+{
+  "name": "@abernier/create-sandbox",
+  "version": "1.0.0",
+  "description": "",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abernier/sandbox.git"
+  },
+  "author": "Antoine BERNIER",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abernier/sandbox/issues"
+  },
+  "homepage": "https://github.com/abernier/sandbox#readme",
+  "dependencies": {
+    "minimist": "^1.2.5",
+    "project-name-generator": "^2.1.9"
+  }
+}
