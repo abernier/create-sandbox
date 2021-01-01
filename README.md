@@ -1,3 +1,5 @@
+[![NPM version](https://img.shields.io/npm/v/@abernier/create-sandbox.svg?style=flat)](https://www.npmjs.com/package/@abernier/create-sandbox)
+
 Command to create a standard CRA, but:
 - with a random name (if no-one specified)
 - that starts VScode automatically on it
