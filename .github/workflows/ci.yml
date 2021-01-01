@@ -1,6 +1,6 @@
 name: ci
 
-on: [push, pull_request, create] # see: https://developer.github.com/webhooks/
+on: [create] # see: https://developer.github.com/webhooks/
 
 jobs:
   publish-npm:
