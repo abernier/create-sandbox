@@ -1,0 +1,18 @@
+name: ci
+
+on: [push, pull_request, create] # see: https://developer.github.com/webhooks/
+
+jobs:
+  publish-npm:
+    name: Publish on NPM using node 13 and ubuntu-latest
+    if: github.event_name == 'create' && github.event.ref_type == 'tag' # see: https://developer.github.com/v3/activity/events/types/#createevent
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 13
+          registry-url: https://registry.npmjs.org/
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN}} # see: https://github.com/abernier/create-sandbox/settings/secrets
